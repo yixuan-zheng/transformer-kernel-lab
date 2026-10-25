@@ -1,0 +1,10 @@
+ID,Process ID,Process Name,Host Name,Kernel Name,Context,Stream,Block Size,Grid Size,Device,CC,Section Name,Metric Name,Metric Unit,Metric Value
+0,0,python,local,_add,1,7,"(128, 1, 1)","(65536, 1, 1)",0,8.9,Command line profiler metrics,dram__bytes_read.sum,byte,71960448
+0,0,python,local,_add,1,7,"(128, 1, 1)","(65536, 1, 1)",0,8.9,Command line profiler metrics,dram__bytes_write.sum,byte,3471104
+0,0,python,local,_add,1,7,"(128, 1, 1)","(65536, 1, 1)",0,8.9,Command line profiler metrics,lts__t_bytes.sum,byte,100930048
+1,0,python,local,_norm,1,7,"(256, 1, 1)","(2048, 1, 1)",0,8.9,Command line profiler metrics,dram__bytes_read.sum,byte,37998848
+1,0,python,local,_norm,1,7,"(256, 1, 1)","(2048, 1, 1)",0,8.9,Command line profiler metrics,dram__bytes_write.sum,byte,0
+1,0,python,local,_norm,1,7,"(256, 1, 1)","(2048, 1, 1)",0,8.9,Command line profiler metrics,lts__t_bytes.sum,byte,69668800
+2,0,python,local,_norm,1,7,"(256, 1, 1)","(2048, 1, 1)",0,8.9,Command line profiler metrics,dram__bytes_read.sum,byte,76325376
+2,0,python,local,_norm,1,7,"(256, 1, 1)","(2048, 1, 1)",0,8.9,Command line profiler metrics,dram__bytes_write.sum,byte,10559360
+2,0,python,local,_norm,1,7,"(256, 1, 1)","(2048, 1, 1)",0,8.9,Command line profiler metrics,lts__t_bytes.sum,byte,136793440

@@ -1,0 +1,10 @@
+{
+  "raw_rows": 8520,
+  "summary_rows": 1704,
+  "unique_groups": 1704,
+  "all_groups_have_five_batches": true,
+  "all_values_finite_positive": true,
+  "full_expected_coverage": true,
+  "inspected_traces": 12,
+  "trace_kernel_counts_verified": true
+}

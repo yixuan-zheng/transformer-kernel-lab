@@ -1,0 +1,5 @@
+include LICENSE README.md pyproject.toml
+include docs/ARCHITECTURE.md docs/REPRODUCIBILITY.md docs/REFERENCES.md
+recursive-include tests *.py
+include tools/check_install.py tools/verify_publication.py
+global-exclude __pycache__ *.py[cod]

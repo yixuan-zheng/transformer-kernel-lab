@@ -1,0 +1,10 @@
+{
+  "failures": [],
+  "limits": [
+    "CUDA L40S only",
+    "FP16/BF16 contiguous inputs",
+    "normalization width <=16384",
+    "no gradients",
+    "no measured DRAM bandwidth; logical traffic only"
+  ]
+}

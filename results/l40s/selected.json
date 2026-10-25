@@ -1,0 +1,5 @@
+{
+  "rmsnorm": 8,
+  "residual_rmsnorm": 8,
+  "swiglu": 1024
+}

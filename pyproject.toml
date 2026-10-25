@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "transformer-kernel-lab"
+version = "0.1.0"
+description = "Triton Transformer operators and a reproducible study of kernel fusion"
+readme = "README.md"
+requires-python = ">=3.9,<3.13"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = ["torch==2.4.1", "triton==3.0.0"]
+
+[project.optional-dependencies]
+plots = ["matplotlib>=3.8,<4", "numpy>=1.26,<3"]
+
+[project.scripts]
+tkl-bench = "benchmarks.study:main"
+
+[tool.setuptools]
+packages = ["kernels", "baselines", "benchmarks"]
+
+[project.urls]
+Repository = "https://github.com/yixuan-zheng/transformer-kernel-lab"

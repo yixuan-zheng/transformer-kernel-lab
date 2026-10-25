@@ -1,0 +1,15 @@
+{
+  "gpu": "NVIDIA L40S",
+  "capability": [
+    8,
+    9
+  ],
+  "torch": "2.4.1+cu121",
+  "triton": "3.0.0",
+  "cuda": "12.1",
+  "seed": 2026,
+  "device": "_CudaDeviceProperties(name='NVIDIA L40S', major=8, minor=9, total_memory=45539MB, multi_processor_count=142)",
+  "driver": "615.71.09",
+  "power_limit_watts": 350,
+  "clocks_locked": false
+}
